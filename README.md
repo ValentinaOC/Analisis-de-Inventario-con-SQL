@@ -9,7 +9,7 @@ Este proyecto presenta el diseño y la ejecución de un **Modelo de Clasificaci�
 
 ---
 
-## 1. Validación del Modelo Pareto (Análisis ABC)
+## Validación del Modelo Pareto (Análisis ABC)
 
 El modelo se construyó utilizando funciones de ventana para calcular el valor acumulado y clasificar cada SKU según su impacto económico:
 
@@ -22,7 +22,7 @@ El modelo se construyó utilizando funciones de ventana para calcular el valor a
 
 ---
 
-## 2. Categorías Dominantes e Impacto Operativo
+## Categorías Dominantes e Impacto Operativo
 
 Al agrupar la clasificación por categorías del catálogo, se identificaron los líderes de cada segmento:
 
@@ -31,14 +31,14 @@ Al agrupar la clasificación por categorías del catálogo, se identificaron los
 
 ---
 
-## 3. Análisis de Riesgos Cruzados
+## Análisis de Riesgos Cruzados
 
 ### A. Riesgo de Calidad (Rating Promedio)
 Se analizó la percepción del cliente por categoría para mitigar riesgos en productos de alto valor:
 * **Mayor Calidad:** *Foodgrains, Oil & Masala* (4.06) y *Baby Care* (4.02).
 * **Zona de Alerta:** *Kitchen, Garden & Pets* presenta el rating más bajo (**3.73**). Al tener una fuerte presencia en la Clase A, cualquier problema de calidad aquí impacta directamente el valor económico del inventario.
 
-### B. Riesgo de Sobrestock (Capital Inmovilizado)
+### Riesgo de Sobrestock (Capital Inmovilizado)
 Se filtraron los productos cuyo stock supera **1.5 veces el promedio general** del inventario:
 
 | Categoría | Productos en Sobrestock | Status |
