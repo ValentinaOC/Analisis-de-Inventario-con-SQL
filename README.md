@@ -14,6 +14,7 @@ Este proyecto presenta el diseño y la ejecución de un **Modelo de Clasificaci�
 El modelo se construyó utilizando funciones de ventana para calcular el valor acumulado y clasificar cada SKU según su impacto económico:
 
 | Clase | Significado | N° Productos | Valor Total (COP) | % del Valor |
+| :---: | :--- | :---: | :---: | :---: |
 | **A** | Inversión Alta | 10,290 | $1,939,940,232 | ~80% |
 | **B** | Inversión Media | 8,389 | $363,733,414 | ~15% |
 | **C** | Inversión Baja | 8,876 | $121,131,400 | ~5% |
