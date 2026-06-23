@@ -2,14 +2,14 @@
 
 Este proyecto presenta el diseño y la ejecución de un **Modelo de Clasificación ABC** implementado en **PostgreSQL** sobre un dataset de retail con **27,555 SKUs**. El objetivo es identificar la contribución económica de cada producto al valor total del inventario siguiendo el Principio de Pareto, cruzando los resultados con métricas de calidad (ratings) y riesgos de sobrestock para optimizar la toma de decisiones logísticas.
 
-## 🛠️ Tecnologías y Datos Utilizados
+## Tecnologías y Datos Utilizados
 * **Motor de Base de Datos:** PostgreSQL
 * **Técnicas SQL Aplicadas:** Funciones de ventana (`SUM() OVER`, `CUME_DIST`), ordenamiento avanzado, agregaciones y uniones de tablas.
 * **Dataset:** `Inventory_BigBasket_Products.csv` (27,555 registros analizados).
 
 ---
 
-## 🔍 1. Validación del Modelo Pareto (Análisis ABC)
+## 1. Validación del Modelo Pareto (Análisis ABC)
 
 El modelo se construyó utilizando funciones de ventana para calcular el valor acumulado y clasificar cada SKU según su impacto económico:
 
